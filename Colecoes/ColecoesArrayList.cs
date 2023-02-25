@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Collections;//Para utilizar o ArrayList
+using System.Text;
+
+namespace CursoCSharp.Colecoes {
+    class ColecoesArrayList {
+        public static void Executar() {
+            var arrayList = new ArrayList {
+                "Palavra",
+                3,
+                true
+            };
+
+            arrayList.Add(3.1214);
+
+            foreach (var item in arrayList) {
+                Console.WriteLine("{0} => {1}",item,item.GetType());
+            }
+        }
+    }
+}
