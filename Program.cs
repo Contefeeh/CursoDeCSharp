@@ -90,6 +90,7 @@ namespace CursoCSharp {
                 {"Primeiro Arquivo - Api",PrimeiroArquivo.Executar},
                 {"Lendo Arquivos - Api",LendoArquivos.Executar},
                 {"File Info - Api",ExemploFileInfo.Executar},
+                {"Diretórios - Api",Diretorios.Executar},
             });
             central.SelecionarEExecutar();
         }
